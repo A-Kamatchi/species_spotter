@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+#hero {
+  background-image: url('./biodiversity1.png');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-content {
+ font-style: normal;
+ color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#search .search-bar {
+  margin-top: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+
+
+#conservation-tips {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.tips-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tip-item {
+  background: #4CAF50;
+  color: white;
+  border-radius: 50%;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* Style for the world-heritage-sites section */
+#world-heritage-sites {
+  padding: 20px;
+}
+
+/* Style for the heading */
+#world-heritage-sites h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Style for the heritage-grid */
+.heritage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Style for each heritage-item */
+.heritage-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for heritage item image */
+.heritage-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Style for heritage item title */
+.heritage-item h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Style for heritage item description */
+.heritage-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+
+.community-item {
+  border: 1px solid #ccc;
+  margin: 1rem;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
+
+.community-item img {
+  max-width: 100%;
+  height: auto;
+}
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./img4.jpeg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1; /* Ensure the image stays behind other content */
+}
+
